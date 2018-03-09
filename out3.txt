@@ -1,0 +1,54 @@
+Equipo 1: 
+99000 zubats
+9900 bellsprouts
+990 metapods
+Equipo 2: 
+Tienes un huevo, no puede levear
+0 zubats
+0 bellsprouts
+0 metapods
+Equipo 3: 
+Tienes un huevo, no puede levear
+Tienes un huevo, no puede levear
+Tienes un huevo, no puede levear
+0 zubats
+0 bellsprouts
+0 metapods
+Equipo 4: 
+Tienes un huevo, no puede levear
+291000 zubats
+29100 bellsprouts
+2910 metapods
+Equipo 5: 
+Tienes un huevo, no puede levear
+173000 zubats
+17300 bellsprouts
+1730 metapods
+Equipo 6: 
+Tienes un huevo, no puede levear
+Tienes un huevo, no puede levear
+173000 zubats
+17300 bellsprouts
+1730 metapods
+Equipo 7: 
+Tienes un huevo, no puede levear
+Tienes un huevo, no puede levear
+272000 zubats
+27200 bellsprouts
+2720 metapods
+Equipo 8: 
+Tienes un huevo, no puede levear
+Tienes un huevo, no puede levear
+369000 zubats
+36900 bellsprouts
+3690 metapods
+Equipo 9: 
+Tienes un huevo, no puede levear
+580000 zubats
+58000 bellsprouts
+5800 metapods
+Equipo 10: 
+Tienes un huevo, no puede levear
+612000 zubats
+61200 bellsprouts
+6120 metapods
