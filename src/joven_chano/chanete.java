@@ -34,17 +34,26 @@ public class chanete {
 			int nummeta=0;
 			
 			a+="Equipo "+(i+1)+": \n";
+			if(pokemons==0) {
+				a+="No tienes ningun pokemon";
+			}
+			else {
 			for(int j=0;j<pokemons;j++) {
 				int lvl=sc.nextInt();
-				
+				if(lvl==0) {
+					a+="Tienes un huevo, no puede levear\n";
+				}
+				else {
 				numzub+=calczub(lvl);
 				numbell+=calcbell(lvl);
 				nummeta+=calcmeta(lvl);
+				}
 			}
 			a+=numzub+" zubats\n";
 			a+=numbell+" bellsprouts\n";
 			a+=nummeta+" metapods\n";
 			
+		}
 		}
 		System.out.println(a);
 	}
@@ -57,15 +66,10 @@ public class chanete {
 	public static int calczub(int lvl) {
 		
 		int exp=0;
-		if(lvl==0) {
-			a+="Tienes un huevo, no puede levear\n";
-			return exp;
-		}
-		else {
 		int tilo=100-lvl;
 		exp+=tilo*1000/1;
 		return exp;
-		}
+		
 	}
 	
 	/**
@@ -78,15 +82,9 @@ public class chanete {
 	public static int calcbell(int lvl) {
 		
 		int exp=0;
-		if(lvl==0) {
-			a+="Tienes un huevo, no puede levear\n";
-			return exp;
-		}
-		else {
 		int tilo=100-lvl;
 		exp+=tilo*1000/10;
 		return exp;
-		}
 	}
 	
 	/**
@@ -98,14 +96,8 @@ public class chanete {
 	public static int calcmeta(int lvl) {
 		
 		int exp=0;
-		if(lvl==0) {
-			a+="Tienes un huevo, no puede levear\n";
-			return exp;
-		}
-		else {
 		int tilo=100-lvl;
 		exp+=tilo*1000/100;
 		return exp;
-		}
 	}
 }
