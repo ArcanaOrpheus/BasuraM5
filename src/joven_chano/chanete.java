@@ -1,31 +1,24 @@
 package joven_chano;
 import java.util.Scanner;
-public class chanete {
-
-
-
 		/**
 		 * @author Tilo
 		 * @version 0.1
 		 * @since 0.0
 		 */
+public class chanete {
+
+	
 	static Scanner sc = new Scanner(System.in);
 	static String a="";
 		/**
-		 * @param int pokemons Nombre de pokemons del equip
-		 * @param int numzub Nombre de zubats, cada vegada que s'introdueix un nou equip torna a 0
-		 * @param int numbell Nombre de bellsprouts, cada vegada que s'introdueix un nou equip torna a 0
-		 * @param int nummeta Nombre de metapods, cada vegada que s'introdueix un nou equip torna a 0
 		 *<p>
-		 * Programa que rep un numero de casos, un numero de pokemon per cas i que retorna el nombre de zubats, bellsprouts i metapods
-		 * necessaris per a que tot el equip puji al 100. Si no hi ha pokemons torna que no en te cap, si es lvl 0 l'identifica com a ou
-		 * 
+		 * Programa que rep un numero de casos, un numero de pokemon per cas i un nivell per cada pokemon.
+		 * <p>
+		 * Retorna el nombre de zubats, bellsprouts i metapods
+		 * necessaris per a que tot el equip puji al 100.
 		 * 
 		 */
 	public static void main(String[] args) {
-		
-		
-		
 		
 		int casos= sc.nextInt();
 		for(int i=0;i<casos;i++) {
